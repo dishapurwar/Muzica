@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Baloo Bhai 2", cursive;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #1d2b64;
+  background: -webkit-linear-gradient(to left, #f8cdda, #1d2b64);
+  background: linear-gradient(to left, #f8cdda, #1d2b64);
+}
+h2 {
+  font-weight: bolder;
+  padding-top: 50px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 65px;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+}
+.navbar i {
+  font-size: 35px;
+  margin-left: 10px;
+  color: #f59b23;
+}
+
+.play-btn {
+  font-size: 30px !important;
+  margin-left: -33px !important;
+}
+
+.logo {
+  color: white;
+  position: relative;
+  right: 130px;
+ 
+  font-size: 25px;
+}
+
+.glow {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 30px #f59b23, 0 0 40px #f59b23,
+      0 0 50px #f59b23, 0 0 60px #f59b23, 0 0 70px #f59b23;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #f59b23, 0 0 40px #f59b23,
+      0 0 50px #f59b23, 0 0 60px #f59b23, 0 0 70px #f59b23, 0 0 80px #f59b23;
+  }
+}
+
+.nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin-right: 180px;
+}
+
+.nav ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.nav ul a:hover {
+  color: #f59b23;
+  font-size: 19.5px;
+  transition: all 0.5s ease-out;
+}
+.play {
+  margin-right: 0px;
+}
+
+.nav ul i {
+  color: #1d2b64;
+}
+.login {
+  margin-right: 20px;
+}
+.btn {
+  padding: 0.2rem 0.8rem;
+  background-color: #f59b23;
+  border: 2px solid #f59b23;
+  border-radius: 10px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.5s;
+  font-weight: 500;
+  font-size: 18px;
+}
+.btn:hover {
+  opacity: 0.8;
+  padding: 0.1rem 0.5rem;
+  font-size: 15px;
+}
+
+.content {
+  display: flex;
+  gap: 50px;
+}
+
+.content ul li {
+  font-size: 50px;
+  line-height: 74px;
+  list-style: none;
+  font-family: "Pacifico", cursive;
+  color: white;
+}
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+  padding-top: 40px;
+  margin-bottom: 90px;
+}
+
+.images img {
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: -10px 10px 20px 1px black;
+}
+.images img:hover {
+  height: 180px;
+  transition: all 0.5s ease;
+}
+
+.trending {
+  text-align: center;
+  padding-top: 5px;
+}
+.trending h1 {
+  font-size: 100px;
+  margin-top: 10px;
+}
+.trending ul li {
+  list-style: none;
+}
+
+/* SONGS-CAROUSEL */
+#songs {
+  background-color: #a791af;
+  text-align: center;
+  color: #fff;
+}
+.song-img {
+  width: 25%;
+  border-radius: 10%;
+  margin: 1px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.carousel-item {
+  padding: 7% 15% 0 15%;
+}
+.song-name {
+  font-size: 25px;
+  display: block;
+  color: black;
+}
+.heading {
+  font-size: 50px;
+  padding-top: 1px;
+  padding-bottom: 20px;
+  color: black;
+  font-family: "Secular One", sans-serif;
+}
+.head {
+  font-family: "Secular One", sans-serif;
+  color: #1e3264;
+  text-shadow: 2px 2px black;
+}

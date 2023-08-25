@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MUZICA</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- link for logo icon -->
+    <link rel="icon" href="css\favicon (1).ico" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <i class="fa-solid fa-headphones-simple"></i>
+      <div class="logo glow">muzica</div>
+      <div class="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#songs">Trending songs</a></li>
+          <li><a href="muzica_final.cpp" class="play">Play</a></li>
+          <i class="fa-solid fa-play play-btn"></i>
+        </ul>
+      </div>
+      <div class="login">
+        <a href="#" class="btn">Sign up</a>
+        <a href="#" class="btn">Log in</a>
+      </div>
+    </nav>
+
+    <div class="content">
+      <ul>
+        <li>m-music</li>
+        <li>u-uplifting</li>
+        <li>z-zestful</li>
+        <li>i-intriguing</li>
+        <li>c-calming</li>
+        <li>a-ambience</li>
+      </ul>
+      <div class="images">
+        <img src="css/bolly.png" alt="" />
+        <img src="css/dev.png" alt="" />
+        <img src="css/hip.png" alt="" />
+        <img src="css/ins.png" alt="" />
+        <img src="css/new.png" alt="" />
+        <img src="css/pun.png" alt="" />
+        <img src="css/pod.png" alt="" />
+        <img src="css/pop.png" alt="" />
+      </div>
+    </div>
+
+    <section id="songs">
+      <div id="songs-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <h2 class="head">Trending Songs</h2>
+          <div class="carousel-item active">
+            <h2 class="heading">Retro songs to bliss your solitude</h2>
+            <img
+              class="song-img"
+              src="css\lagjaa.png"
+              class="d-block w-100"
+              alt="lag_jaa"
+            />
+            <em class="song-name">Lag Jaa Gale</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="heading">Retro songs to bliss your solitude</h2>
+            <img
+              class="song-img"
+              src="css\terejaisa.png"
+              class="d-block w-100"
+              alt="tere_jaisa"
+            />
+            <em class="song-name">Tere Jaisa Yaar Kahan</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="heading">Bollywood songs to cheer you up</h2>
+            <img
+              class="song-img"
+              src="css/besabriyan.png"
+              class="d-block w-100"
+              alt="besabriyan_song"
+            />
+            <em class="song-name">Besabriyaan</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="heading">Bollywood songs to cheer you up</h2>
+            <img
+              class="song-img"
+              src="css/bhula_diya.jpg"
+              class="d-block w-100"
+              alt="bhuladiya_song"
+            />
+            <em class="song-name">Bhula Diya </em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="heading">Punjabi song to make you hop on the floor</h2>
+            <img
+              class="song-img"
+              src="css/suit.jpg"
+              class="d-block w-100"
+              alt="suit-suit_song"
+            />
+            <em class="song-name">Suit Suit</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="heading">Punjabi song to make you hop on the floor</h2>
+            <img
+              class="song-img"
+              src="css/ohooho.jpg"
+              class="d-block w-100"
+              alt="oh_ho_ho"
+            />
+            <em class="song-name">Oh Ho Ho Ho</em>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#songs-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#songs-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
